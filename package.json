@@ -1,0 +1,30 @@
+{
+  "name": "wedding-web",
+  "version": "1.0.0",
+  "description": "My wedding web",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naimikan/wedding-web.git"
+  },
+  "author": "Guillem Aldeguer Lima <guillem.aldeguer@gmail.com> (https://naimikan.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Naimikan/wedding-web/issues"
+  },
+  "homepage": "https://github.com/Naimikan/wedding-web#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "helmet": "^3.9.0",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^5.0.1",
+    "morgan": "^1.9.0"
+  }
+}
